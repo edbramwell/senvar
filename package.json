@@ -1,6 +1,10 @@
 {
   "name": "@senvar/secrets",
   "version": "0.0.1",
+  "description": "Secure ENvironment VARiables - Manage secrets and parameters in AWS SSM and Secrets Manager",
+  "keywords": ["secrets", "aws", "ssm", "secrets-manager", "environment-variables", "senvar"],
+  "license": "MIT",
+  "author": "Senvar",
   "module": "src/index.ts",
   "type": "module",
   "bin": {
