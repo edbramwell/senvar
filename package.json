@@ -1,10 +1,10 @@
 {
-  "name": "@senvar/secrets",
+  "name": "senvar",
   "version": "0.0.1",
   "description": "Secure ENvironment VARiables - Manage secrets and parameters in AWS SSM and Secrets Manager",
   "keywords": ["secrets", "aws", "ssm", "secrets-manager", "environment-variables", "senvar"],
   "license": "MIT",
-  "author": "Senvar",
+  "author": "edbramwell",
   "module": "src/index.ts",
   "type": "module",
   "bin": {
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senvar/secrets.git"
+    "url": "git+https://github.com/edbramwell/senvar.git"
   },
   "homepage": "https://senvar.dev",
   "bugs": {
-    "url": "https://github.com/senvar/secrets/issues"
+    "url": "https://github.com/edbramwell/senvar/issues"
   },
   "dependencies": {
     "@aws-sdk/client-secrets-manager": "^3.667.0",

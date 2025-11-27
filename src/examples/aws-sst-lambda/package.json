@@ -2,7 +2,6 @@
   "name": "@senvar/example-aws-sst-lambda",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
   "scripts": {
     "dev": "sst dev",
     "build": "sst build",
