@@ -1,0 +1,40 @@
+{
+  "name": "@senvar/secrets",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "bin": {
+    "senvar": "src/cli/index.ts"
+  },
+  "scripts": {
+    "senvar": "bun run src/cli/index.ts",
+    "build": "tsc --noEmit",
+    "cli": "bun run src/cli/index.ts",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/senvar/secrets.git"
+  },
+  "homepage": "https://senvar.dev",
+  "bugs": {
+    "url": "https://github.com/senvar/secrets/issues"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.667.0",
+    "@aws-sdk/client-ssm": "^3.667.0",
+    "@aws-sdk/credential-providers": "^3.667.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fs-extra": "^11.0.4",
+    "@types/prompts": "^2.4.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
